@@ -40,6 +40,7 @@ workflows:
         inputs:
         - xcresult_file_path: TestApp.xcresult
         - report_path: xcov_reports
+        - scheme: TestApp
     - script:
         inputs:
         - content: |

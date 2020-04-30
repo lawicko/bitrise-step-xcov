@@ -64,6 +64,14 @@ inputs:
       description: |-
         This is where the report will be saved. The default is $BITRISE_DEPLOY_DIR/xcov_reports.
       is_required: true
+  - scheme:
+    opts:
+      title: "Scheme used for testing"
+      summary: "The scheme that was used for running the test step, only required if you have multiple schemes in your project"
+      description: |
+        "The scheme that was used for running the test step, only required if you have multiple schemes in your project"
+      is_expand: true
+      is_required: false
 #  - xcov_version:
 #    opts:
 #      title: "xcov version"
